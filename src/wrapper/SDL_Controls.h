@@ -1,0 +1,23 @@
+#pragma once
+
+#define GRID_CELL_SIZE 64
+#define MENU_GRID_CELL_SIZE 37
+#define TITLE_OFFSET MENU_GRID_CELL_SIZE + (MENU_GRID_CELL_SIZE / 2)
+#define BULLET_SIZE (GRID_CELL_SIZE / 2)
+#define WINDOW_WIDTH (GRID_CELL_SIZE * (13 + 3))   // 50 * 13 + 50 * 3
+#define WINDOW_HEIGHT (GRID_CELL_SIZE * (13 + 2))  // 50 * 13 + 50 * 2
+
+#define FIELD_POS_X GRID_CELL_SIZE
+#define FIELD_POS_Y GRID_CELL_SIZE
+#define FIELD_WIDTH (GRID_CELL_SIZE * 13)                // 50 * 13
+#define FIELD_HEIGHT (GRID_CELL_SIZE * 13)               // 50 * 13
+#define FIELD_END_X (GRID_CELL_SIZE * 13) + FIELD_POS_X  // 50 * 13 + 50
+#define FIELD_END_Y (GRID_CELL_SIZE * 13) + FIELD_POS_Y  // 50 * 13 + 50
+
+#define TANK_DEFAULT_POS 1500
+#define BULLET_DEFAULT_POS 1200
+
+#define MAX_FPS 64
+#define UPDATE_RATE 2
+
+void SDL_Shutdown();

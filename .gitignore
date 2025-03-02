@@ -1,0 +1,9 @@
+*.bak
+*.o
+*.exe
+*.zip
+
+mklink.txt
+
+.vscode/
+src/unused/
