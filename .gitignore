@@ -7,3 +7,4 @@ mklink.txt
 
 .vscode/
 src/unused/
+src/SDL2/
